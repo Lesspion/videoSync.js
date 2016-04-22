@@ -1,0 +1,17 @@
+{
+  "name": "videosync",
+  "description": "",
+  "main": "videoSync.js",
+  "license": "ISC",
+  "homepage": "https://github.com/Lesspion/videoSync.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
