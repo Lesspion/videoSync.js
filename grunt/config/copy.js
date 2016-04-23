@@ -5,8 +5,9 @@ module.exports = function (grunt) {
                 {
                     cwd: "application/",
                     expand: true,
-                    src: ['**'],
-                    dest: 'htdocs/'
+                    src: ['index.html'],
+                    dest: 'htdocs/',
+                    filter: 'isFile'
                 },
             ]
         },
