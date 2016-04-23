@@ -6,6 +6,9 @@ function endsWith(str, suffix) {
 }
 
 module.exports = function (grunt) {
+    
+    require('load-grunt-tasks')(grunt);
+    
     require('time-grunt');
     require('jit-grunt');
     
