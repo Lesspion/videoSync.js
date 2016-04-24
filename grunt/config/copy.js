@@ -9,6 +9,13 @@ module.exports = function (grunt) {
                     dest: 'htdocs/',
                     filter: 'isFile'
                 },
+                {
+                    cwd: "application/video",
+                    expand: true,
+                    src: ['*.mp4', '*.avi'],
+                    dest: 'htdocs/video/',
+                    filter: 'isFile'
+                },
             ]
         },
         vendor: {
