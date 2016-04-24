@@ -6,6 +6,13 @@
     </head>
     <body>
         <h1>Video test</h1>
-        <video></video>
+        <video id="myVid">
+            <source src="video/SampleVideo_1280x720_50mb.mp4" type="video/mp4">
+        </video>
+        <script type="text/javascript" src="js/videoSync.js"></script>
+        <script type="text/javascript">
+            var vid = new Video('#myVid');
+            vid.setSize({h: 200, w: 250})
+        </script>
     </body>
 </html>
